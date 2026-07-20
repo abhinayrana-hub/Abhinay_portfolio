@@ -1,22 +1,25 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Experience from './components/Experience'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import ScrollTraveller from "./components/ScrollTraveller";
 
 function App() {
   return (
-    <div className='bg-blue-100'>
+    <div className="bg-gradient-to-b from-slate-50 to-emerald-50">
       <Navbar />
+      <ScrollTraveller />
       <Hero />
       <About />
       <Experience />
+      <Projects />
       <Skills />
       <Contact />
     </div>
-  
-  )
+  );
 }
 
-export default App
+export default App;
